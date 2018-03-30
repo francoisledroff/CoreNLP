@@ -144,6 +144,14 @@
   </dependencies>
   <build>
     <sourceDirectory>src</sourceDirectory>
+    <resources>
+      <resource>
+      <directory>models/english</directory>
+        <includes>
+          <include>**/*</include>
+        </includes>
+    </resource>
+    </resources>
     <testSourceDirectory>test/src</testSourceDirectory>
     <plugins>
       <plugin>
